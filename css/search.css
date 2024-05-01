@@ -1,0 +1,41 @@
+
+.filters{
+    display:inline-flex;
+    gap:1em;
+}
+
+.price-filter{
+    border:1px solid #e4e4e4;
+    padding:5px;
+    margin-left:1em;
+    display:inline-flex;
+    flex-direction:column;
+    gap:3px;
+    align-items:center;
+}
+
+.price-filter-inputs{
+    display:inline-flex;
+    gap:5px;
+}
+
+.search-results{
+    display: grid;
+    grid-template-columns: auto auto auto auto;
+    justify-content: space-between;
+}
+
+.product{
+    margin:5em;
+    border:1px solid #e4e4e4;
+    padding:2em;
+    display:flex;
+    flex-direction:column;
+    align-content: center;
+}
+
+.product-details{
+    display:flex;
+    gap: 3em;
+    justify-content:center;
+}
