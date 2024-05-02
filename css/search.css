@@ -1,7 +1,11 @@
-
+.filter-container{
+    display:flex;
+}
 .filters{
+    margin:1em;
     display:inline-flex;
     gap:1em;
+    max-height:1.2em;
 }
 
 .price-filter{
@@ -38,4 +42,8 @@
     display:flex;
     gap: 3em;
     justify-content:center;
+}
+
+.wrapper{
+    display:none;
 }

@@ -2,6 +2,8 @@
 document.addEventListener("DOMContentLoaded", function() {
     const filters = document.querySelectorAll('.filters select, .price-filter-inputs input');
     const products = document.querySelectorAll('.product');
+    const price = document.querySelector(".price-toggle")
+    const priceFilter = document.querySelector('.wrapper');
 
     // Function to check if a product matches the selected filters
     function checkFilter(product) {
@@ -57,6 +59,11 @@ document.addEventListener("DOMContentLoaded", function() {
         });
         applyFilters();
     });
+
+    price.addEventListener('click', function() {
+        // Toggle the visibility of the price filter
+        priceFilter.style.display = priceFilter.style.display == 'block' ? 'none' : 'block';
+      });
 
     // Event listener for done button
     document.querySelector('.price-buttons .done').addEventListener('click', function() {

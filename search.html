@@ -70,25 +70,37 @@
         <option value="heavily-used">Heavily Used</option>
         <option value="new">New</option>
       </select>
+
+      <button class="price-toggle">
+        Edit Price
+      </button>
+
     </div>
-  
-    <span class="price-filter">
-      <label for="price-filter-inputs">Select Price Range</label>
-      <div name="price-filter-inputs" class="price-filter-inputs">
-        <label for="min-input" class="min-input-label">Min.</label>
-        <input inputmode="numeric" aria-label="Minimum price" placeholder="US$1" id="min-input" class="price-filter-boundary" type="text" value="">
-        <label for="max-input" class="max-input-label">Max.</label>
-        <input inputmode="numeric" placeholder="Any" aria-label="Maximum price" id="max-input" class="price-filter-boundary" type="text" value="">
-      </div>
-      <div class="price-buttons">
-        <button class="reset">
-          Reset
-        </button>
-        <button class="done">
-          Done
-        </button>
-      </div>
+
+    
+
+    
+    
+    <span class="wrapper">
+      <span class="price-filter">
+        <label for="price-filter-inputs">Select Price Range</label>
+        <div name="price-filter-inputs" class="price-filter-inputs">
+          <label for="min-input" class="min-input-label">Min.</label>
+          <input inputmode="numeric" aria-label="Minimum price" placeholder="US$1" id="min-input" class="price-filter-boundary" type="text" value="">
+          <label for="max-input" class="max-input-label">Max.</label>
+          <input inputmode="numeric" placeholder="Any" aria-label="Maximum price" id="max-input" class="price-filter-boundary" type="text" value="">
+        </div>
+        <div class="price-buttons">
+          <button class="reset">
+            Reset
+          </button>
+          <button class="done">
+            Done
+          </button>
+        </div>
+      </span>
     </span>
+    
     <hr style="border: 1px solid #e4e4e4;">
   </div>
   
