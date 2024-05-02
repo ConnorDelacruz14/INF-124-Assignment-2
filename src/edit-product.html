@@ -1,0 +1,109 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Product</title>
+  <link rel="stylesheet" href="../css/style.css">
+  <link rel="stylesheet" href="../css/navbar.css">
+  <link rel="stylesheet" href="../css/product.css">
+  <link rel="stylesheet" href="../css/edit-product.css">
+</head>
+<body>
+<!--NavBar-->
+<div class="navbar">
+  <img src="../img/logo.png" alt="logo">
+  <div class="search-bar">
+    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512"><!--!Font Awesome Free 6.5.2 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license/free Copyright 2024 Fonticons, Inc.--><path d="M416 208c0 45.9-14.9 88.3-40 122.7L502.6 457.4c12.5 12.5 12.5 32.8 0 45.3s-32.8 12.5-45.3 0L330.7 376c-34.4 25.2-76.8 40-122.7 40C93.1 416 0 322.9 0 208S93.1 0 208 0S416 93.1 416 208zM208 352a144 144 0 1 0 0-288 144 144 0 1 0 0 288z" fill="#707070"/></svg>
+    <label>
+      <input type="text" placeholder="Search here..." />
+    </label>
+    <button class="button">Search</button>
+  </div>
+  <div class="navbar-options">
+    <button class="navbar-option">Sell</button>
+    <button class="navbar-option">Help</button>
+    <button class="navbar-option">About</button>
+    <button class="navbar-option">Cart</button>
+    <button class="navbar-option">Profile</button>
+  </div>
+</div>
+<!-- Product-->
+<div class="product-container">
+  <div class="title-container">
+    <h1>Edit Title</h1>
+  </div>
+  <div class="item">
+    <div class="item-display">
+      <div class="views">
+        <div class="view">+</div>
+        <div class="view">+</div>
+        <div class="view">+</div>
+        <div class="view">+</div>
+      </div>
+      <div class="main-view">+</div>
+    </div>
+    <div class="item-info">
+      <div class="edit-tags">
+        <h2>Tags</h2>
+        <div class="tags-container">
+          <div class="tag">Clothing x</div>
+          <div class="tag">School Supplies x</div>
+          <div class="tag">Vintage x</div>
+          <div class="tag">Thrifting x</div>
+          <div class="tag">Tech Wear x</div>
+          <div class="tag">+</div>
+        </div>
+      </div>
+      <div class="edit-price">
+        <h2>Item Price</h2>
+        <label>
+          <input type="number">
+          (USD)
+        </label>
+        <label for="offer-toggle">Allow Offers?</label>
+        <input type="checkbox" name="offer-toggle" id="offer-toggle">
+      </div>
+      <div class="edit-shipping">
+        <div class="shipping-header">
+          <h2>Shipping</h2>
+          <label for="pickup-toggle">Pickup Only?</label>
+          <input type="checkbox" name="pickup-toggle" id="pickup-toggle">
+        </div>
+        <div class="dropdowns">
+          <label>
+            Choose an address :
+            <select>
+              <option>Address 1</option>
+              <option>Address 2</option>
+              <option>Address 3</option>
+            </select>
+          </label>
+          <label>
+            Select a parcel type:
+            <select>
+              <option>Parcel 1</option>
+              <option>Parcel 2</option>
+              <option>Parcel 3</option>
+            </select>
+          </label>
+        </div>
+      </div>
+      <div class="submission">
+        <button>Cancel</button>
+        <button>Update listing</button>
+      </div>
+    </div>
+  </div>
+  <div class="description-container">
+    <h3>Description</h3>
+    <label>
+      <textarea>
+        ipsum dolor sit amet, consectetur adipisicing elit.
+        Deserunt nesciunt quos similique sit voluptatibus.
+        Aliquam earum est laboriosam laudantium officiis reprehenderit voluptates? Dolores ducimus earum incidunt ipsam minima nobis saepe?
+      </textarea>
+    </label>
+  </div>
+</div>
+</body>
+</html>

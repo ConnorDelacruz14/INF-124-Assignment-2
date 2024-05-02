@@ -1,0 +1,67 @@
+.tags-container {
+  display: flex;
+  flex-direction: row;
+}
+
+.tag {
+  padding: 8px;
+  text-align: center;
+  border: 1px solid black;
+  border-radius: 20px;
+  margin: 0 5px;
+}
+
+
+.edit-price {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+}
+
+.edit-price label {
+  margin: 0 10px;
+}
+
+.edit-price h3 {
+  margin-left: 20px;
+}
+
+
+.shipping-header {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+}
+
+.shipping-header h2 {
+  margin-right: 30px;
+}
+
+.dropdowns {
+  display: flex;
+  flex-direction: column;
+}
+
+select {
+  width: 200px;
+}
+
+.submission {
+  margin-top: 20px;
+}
+
+textarea {
+  width: 100%;
+  height: 100px;
+}
+
+.view, .main-view {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 40px;
+}
+
+.main-view {
+  font-size: 100px;
+}
