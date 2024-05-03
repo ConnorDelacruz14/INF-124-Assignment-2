@@ -1,3 +1,4 @@
+
 body {
     margin: 0;
     padding: 0;
@@ -5,42 +6,6 @@ body {
     color: black;
 }
 
-.navbar ul {
-    display: flex;
-    flex-direction: row;
-    justify-content: space-between;
-}
-
-.navbar ul .func {
-    display: flex;
-    flex-direction: row;
-    justify-content: space-between;
-}
-
-.navbar ul div li img{
-    width: 45px;
-}
-
-.navbar ul div li {
-    list-style: none;
-    margin: 0px 10px;
-}
-
-.navbar ul div li a {
-    font-size: 18px;
-    color: black;
-    text-decoration: none;
-
-}
-
-.navbar ul div li .search {
-    border: 2px solid rgb(214, 208, 208);
-    background-color: rgb(214, 208, 208);
-    border-radius: 20px;
-    padding: 2px;
-    padding-right: 40px;
-    font-size: 16px;
-}
 
 .About {
     padding: 40px;
@@ -57,9 +22,10 @@ body {
 
 .About .Description div {
     width: 50%;
-    margin: 10px 20px;
+    margin: -8px 20px;
     padding: 10px 20px;
 }
+
 
 footer {
     text-align: center;
