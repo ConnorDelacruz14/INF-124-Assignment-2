@@ -1,0 +1,118 @@
+body {
+    margin: 0;
+    padding: 0;
+    font-family: 'Calibri', 'Trebuchet MS', sans-serif;
+    color: black;
+}
+
+.navbar ul {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+.navbar ul .func {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+.navbar ul div li img{
+    width: 45px;
+}
+
+.navbar ul div li {
+    list-style: none;
+    margin: 0px 10px;
+}
+
+.navbar ul div li a {
+    font-size: 18px;
+    color: black;
+    text-decoration: none;
+
+}
+
+.navbar ul div li .search {
+    border: 2px solid rgb(214, 208, 208);
+    background-color: rgb(214, 208, 208);
+    border-radius: 20px;
+    padding: 2px;
+    padding-right: 40px;
+    font-size: 16px;
+}
+
+.Container {
+    display: flex;
+    height: 90vh;
+}
+
+.Container .sect1 {
+    width: 30%;
+    background-color: #F5F5F5;
+}
+
+.Container .sect2 {
+    width: 100%;
+    background-color: white;
+}
+
+.Container section ul li {
+    list-style: none;
+    font-size: larger;
+    margin: -15px 0px;
+}
+
+.Container .sect1 div li {
+    padding: 2px;
+    margin: 0px 0px;
+}
+
+.Container .sect1 div li:hover {
+    background-color: #94BCF9;
+    cursor: pointer;
+}
+
+.Container .sect1 ul {
+    display: flex;
+    flex-direction: column;
+    padding: 15px;
+}
+
+.Container .sect2 ul div {
+    background-color: #F5F5F5;
+    margin: 10px;
+    padding: 5px;
+}
+
+.Container .sect2 ul div .balance {
+    background-color: white;
+    margin: 10px;
+    padding: 20px;
+}
+
+.Container .sect2 ul div .payment {
+    background-color: white;
+    margin: 10px;
+    padding: 20px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.Container .sect2 ul div .payment a {
+    color: #6491d3;
+    text-decoration: none;
+}
+
+.Container .sect2 ul div .payment a:hover {
+    color: #2766b2;
+    text-decoration: none;
+}
+
+.Container .sect2 ul li {
+    margin-top: 20px;
+}
+
+footer {
+    text-align: center;
+}
