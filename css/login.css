@@ -33,7 +33,7 @@ h1 {
 
 .card-header {
   padding: 16px;
-  background-color: #007bff; /* Header background color */
+  background-color: #DA2121;
   color: #ffffff; /* Header text color */
   border-top-left-radius: 8px;
   border-top-right-radius: 8px;
@@ -58,7 +58,7 @@ h1 {
 }
 
 #login_button {
-  background-color: #007bff; /* Button background color */
+  background-color: #DA2121;
   color: #ffffff; /* Button text color */
   border: none;
   border-radius: 4px;
@@ -80,7 +80,7 @@ h1 {
 }
 
 #login_button:hover {
-  background-color: #0056b3; /* Button background color on hover */
+  background-color: #cc1c1c;
 }
 
 #login_error_message {
