@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <link rel="stylesheet" href="../css/style.css">
+  <link rel="stylesheet" href="../css/navbar.css">
+  <link rel="stylesheet" href="../css/cart.css">
+  <title>Cart</title>
+</head>
+<body>
+
+<!--NavBar-->
+<div class="navbar">
+  <img src="../img/logo.png" alt="logo">
+  <div class="search-bar">
+    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512"><!--!Font Awesome Free 6.5.2 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license/free Copyright 2024 Fonticons, Inc.--><path d="M416 208c0 45.9-14.9 88.3-40 122.7L502.6 457.4c12.5 12.5 12.5 32.8 0 45.3s-32.8 12.5-45.3 0L330.7 376c-34.4 25.2-76.8 40-122.7 40C93.1 416 0 322.9 0 208S93.1 0 208 0S416 93.1 416 208zM208 352a144 144 0 1 0 0-288 144 144 0 1 0 0 288z" fill="#707070"/></svg>
+    <label>
+      <input type="text" placeholder="Search here..." />
+    </label>
+    <button class="button">Search</button>
+  </div>
+  <div class="navbar-options">
+    <button class="navbar-option">Sell</button>
+    <button class="navbar-option">Help</button>
+    <button class="navbar-option">About</button>
+    <button class="navbar-option">Cart</button>
+    <button class="navbar-option">Profile</button>
+  </div>
+</div>
+
+<p id="title">Cart</p>
+
+<div id="cart">
+<div id="cart_item_div">
+  <img src="/img/shirt1.jpg">
+  <table id=cart_table class="table table-striped">
+    <!-- Create a table header -->
+    <thead>
+    <tr>
+      <!-- Titles of each column-->
+      <th>Item</th>
+      <th>Price</th>
+      <th>Quantity</th>
+      <th>Total</th>
+    </tr>
+    </thead>
+    <!-- Table body is left empty here, will be populated with the data retrieved with index.js -->
+    <!-- Again, id "star_table_body" is useful for jQuery to find this html element -->
+    <tbody id=cart_body></tbody>
+    <tr>
+      <td>T-Shirt - Green</td>
+      <td>$19.99</td>
+      <td>
+        <select name="Choose Quantity">
+        <option value="Condition">1</option>
+        <option value="used">2</option>
+        <option value="lightly-used">3</option>
+        <option value="heavily-used">4</option>
+        <option value="new">5</option>
+        </select>
+      </td>
+      <td>$19.99</td>
+    </tr>
+    <tr>
+      <td>
+        <a href="">Edit</a>
+      </td>
+      <td>
+        <a href="">Remove</a>
+      </td>
+      <td>
+        <a href="">Move to Watchlist</a>
+      </td>
+      <td>
+        <a href="">Save for Later</a>
+      </td>
+    </tr>
+  </table>
+  <!-- Buttons below the table -->
+  </div>
+
+  <div id="cart_purchase_div">
+    <p>Shipping: 2.99</p>
+    <p>Discount: 0.00</p>
+    <p>Total: 21.99</p>
+    <button id="order-button">Place Order</button>
+  </div>
+</div>
+
+</body>
+</html>
