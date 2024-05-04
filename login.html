@@ -1,0 +1,44 @@
+<!-- This page will be redirected from any url if you are not logged in -->
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Log in</title>
+<!--  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css"-->
+<!--        integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">-->
+  <link rel="stylesheet" href="css/login.css" type="text/css">
+  <script src="/js/login.js"></script>
+</head>
+<body>
+<h1>Trend 'n Trade</h1>
+
+
+<div class="card" id="login-card">
+  <div class="card-header"> Log In</div>
+  <div class="card-body">
+    <form id="login_form" method="post" action="#">
+      <div class="form-group">
+        <label for="username" class="form-label">Email address</label>
+        <input type="text" class="form-control" id="username" name="username" aria-describedby="emailHelp">
+      </div>
+      <div class="form-group">
+        <label for="password" class="form-label">Password</label>
+        <input type="password" class="form-control" id="password" name="password">
+      </div>
+      <button type="submit" id="login_button" onclick="transferToMain()" class="btn btn-primary btn-block">Log In</button>
+      <button type="submit" onclick="transferToMain()" id="signup_button" class="btn btn-primary btn-block">New Here? Sign Up!</button>
+      <div id="login_error_message" class="form-text"></div>
+    </form>
+  </div>
+</div>
+
+
+<!--<div id="login_error_message"></div>-->
+
+<!-- include jQuery and Bootstrap JS -->
+<!--<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>-->
+<!-- include our own JS file -->
+<!--<script src="login.js"></script>-->
+
+</body>
+</html>

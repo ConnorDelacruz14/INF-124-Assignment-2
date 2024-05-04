@@ -40,7 +40,7 @@ body {
 .Contact form div button{
     font-size: 16px;
     padding: 5px 20px;
-    background-color: #6491d3;
+    background-color: #DA2121;
     border: none;
     border-radius: 3px;
 
@@ -48,7 +48,7 @@ body {
 
 .Contact form div button:hover{
     color: #F5F5F5;
-    background-color: #2766b2;
+    background-color: #E35353;
     cursor: pointer;
 }
 
