@@ -5,7 +5,8 @@ document.addEventListener("DOMContentLoaded", function() {
     const price = document.querySelector(".price-toggle")
     const priceFilter = document.querySelector('.wrapper');
 
-    // Function to check if a product matches the selected filters
+
+    //gpt assisted for this section of checkfilter
     function checkFilter(product) {
         const category = document.querySelector('select[name="Category"]').value;
         const brand = document.querySelector('select[name="Brand"]').value;
@@ -27,7 +28,6 @@ document.addEventListener("DOMContentLoaded", function() {
                (productPrice >= minPrice && productPrice <= maxPrice);
     }
 
-    // Function to apply filters and show/hide products accordingly
     function applyFilters() {
         products.forEach(product => {
             if (checkFilter(product)) {
@@ -38,17 +38,14 @@ document.addEventListener("DOMContentLoaded", function() {
         });
     }
 
-    // Event listeners for filter changes
     filters.forEach(filter => {
         filter.addEventListener('change', applyFilters);
     });
 
-    // Event listener for price filter inputs
     document.querySelectorAll('.price-filter-inputs input').forEach(input => {
         input.addEventListener('input', applyFilters);
     });
 
-    // Event listener for reset button
     document.querySelector('.price-buttons .reset').addEventListener('click', function() {
         filters.forEach(filter => {
             if (filter.tagName === 'SELECT') {
@@ -61,14 +58,11 @@ document.addEventListener("DOMContentLoaded", function() {
     });
 
     price.addEventListener('click', function() {
-        // Toggle the visibility of the price filter
         priceFilter.style.display = priceFilter.style.display == 'block' ? 'none' : 'block';
       });
 
-    // Event listener for done button
     document.querySelector('.price-buttons .done').addEventListener('click', function() {
-        // Optionally, you can perform some action when the user clicks "Done"
-        // For example, you could close a modal or update the product list.
+       
         console.log('Filters applied:', {
             category: document.querySelector('select[name="Category"]').value,
             brand: document.querySelector('select[name="Brand"]').value,
@@ -79,6 +73,5 @@ document.addEventListener("DOMContentLoaded", function() {
         });
     });
 
-    // Initial application of filters
     applyFilters();
 });
