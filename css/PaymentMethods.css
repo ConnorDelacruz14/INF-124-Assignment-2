@@ -33,7 +33,7 @@ body {
 }
 
 .Container .sect1 div li:hover {
-    background-color: #94BCF9;
+    background-color: #E35353;
     cursor: pointer;
 }
 
@@ -64,12 +64,12 @@ body {
 }
 
 .Container .sect2 ul div .payment a {
-    color: #6491d3;
+    color: #DA2121;
     text-decoration: none;
 }
 
 .Container .sect2 ul div .payment a:hover {
-    color: #2766b2;
+    color: #E35353;
     text-decoration: none;
 }
 
