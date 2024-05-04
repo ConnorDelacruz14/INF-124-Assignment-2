@@ -1,5 +1,3 @@
-/* styles.css */
-
 html {
   display: table;
   font-family: sans-serif;
@@ -11,30 +9,30 @@ body {
   display: flex;
   flex-direction: column;
   align-items: center;
-  justify-content: flex-start; /* Change to flex-start to align items to the top */
-  min-height: 100vh; /* Use min-height to ensure the body takes up at least the height of the viewport */
+  justify-content: flex-start;
+  min-height: 100vh;
   margin: 0;
-  padding-top: 250px; /* Adjust top padding as needed to move elements higher */
-  background-color: #f0f0f0; /* Background color for the whole page */
+  padding-top: 250px;
+  background-color: #f0f0f0;
 }
 
 h1 {
-  font-size: 36px; /* Adjust font size as needed */
-  color: #333333; /* Text color */
-  margin-bottom: 20px; /* Decrease margin bottom to reduce space between h1 and card */
+  font-size: 36px;
+  color: #333333;
+  margin-bottom: 20px;
 }
 
 .card {
-  width: 300px; /* Adjust width as needed */
+  width: 300px;
   border-radius: 8px;
   box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
-  background-color: #ffffff; /* Card background color */
+  background-color: #ffffff;
 }
 
 .card-header {
   padding: 16px;
   background-color: #DA2121;
-  color: #ffffff; /* Header text color */
+  color: #ffffff;
   border-top-left-radius: 8px;
   border-top-right-radius: 8px;
   text-align: center;
@@ -59,28 +57,31 @@ h1 {
 
 #login_button {
   background-color: #DA2121;
-  color: #ffffff; /* Button text color */
+  color: #ffffff;
   border: none;
   border-radius: 4px;
   padding: 10px 10px;
   cursor: pointer;
+  transition: background-color 0.3s ease;
 }
 
 #signup_button {
-  background-color: #9ca0a1; /* Button background color */
-  color: #ffffff; /* Button text color */
+  background-color: #9ca0a1;
+  color: #ffffff;
   border: none;
   border-radius: 4px;
   padding: 10px 10px;
   cursor: pointer;
+  transition: background-color 0.3s ease; /* Add transition effect */
 }
 
 #signup_button:hover {
   background-color: #706f6f; /* Button background color on hover */
+
 }
 
 #login_button:hover {
-  background-color: #cc1c1c;
+  background-color: #b91212;
 }
 
 #login_error_message {
