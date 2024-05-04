@@ -9,9 +9,10 @@
 }
 
 .navbar img {
-  height: 64px;
-  width: 64px;
-  cursor: pointer;
+  height: 41px;
+    width: 45px;
+    cursor: pointer;
+    margin: 0px 25px;
 }
 
 .navbar svg {
@@ -49,7 +50,7 @@
 
 .search-bar button {
   color: #fff;
-  background-color: #4070f4;
+  background-color: #DA2121;
   cursor: pointer;
   border: none;
   border-radius: 2px;
@@ -57,7 +58,7 @@
 }
 
 .search-bar button:hover {
-  background-color: #2054e5;
+  background-color: #E35353;
 }
 
 .navbar-options {
