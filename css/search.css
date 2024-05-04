@@ -47,3 +47,25 @@
 .wrapper{
     display:none;
 }
+
+.listing h4 {
+    padding: 0px 18%;
+}
+
+.listing ul {
+    display: flex;
+    justify-content: center;
+
+}
+
+.listing ul li {
+    list-style: none;
+    margin: 0px 20px;
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+}
+
+.listing ul li img {
+    width: 180px;
+}

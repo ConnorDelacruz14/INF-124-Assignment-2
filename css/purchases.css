@@ -30,6 +30,10 @@ img {
 
 }
 
+.title{
+  margin:1em;
+}
+
 
 .bar-item {
     float:left;
