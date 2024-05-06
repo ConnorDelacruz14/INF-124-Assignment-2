@@ -23,11 +23,12 @@
               <button class="button">Search</button>
             </div>
             <div class="navbar-options">
-              <button class="navbar-option">Sell</button>
-              <button class="navbar-option">Help</button>
-              <button class="navbar-option">About</button>
-              <button class="navbar-option">Cart</button>
-              <button class="navbar-option">Profile</button>
+                <a href="../src/PaymentMethods.html" class="navbar-option">History</a>
+                <a href="../src/edit-product.html" class="navbar-option">Sell</a>
+                <a href="../src/ContactUs.html" class="navbar-option">Help</a>
+                <a href="../src/AboutUs.html" class="navbar-option">About</a>
+                <a href="../src/cart.html" class="navbar-option">Cart</a>
+                <a href="../src/HomeFeed.html" class="navbar-option">Profile</a>
             </div>
           </div>
     </header>
@@ -52,16 +53,32 @@
         <section class="listing">
             <h4>Listing</h4>
             <ul>
-                <li><img src="/img/shirt1.jpg" alt="">Casual Shirt - Green <br> $9.99 </li>
-                <li><img src="/img/shirt2.jpeg" alt="">Tee Shirt - Blue <br> $6.99</li>
-                <li><img src="/img/pants1.jpeg" alt="">Cotton Pants - Khaki <br> $15.99</li>
-                <li><img src="/img/socks.jpg" alt="">Full Socks - Yellow <br> $4.99</li>
+                <li class="product" data-category="clothing" data-brand="not nike" data-size="M" data-price="9.99" data-condition="new">
+                  <img src="/img/shirt1.jpg" alt=""><br><a href="product.html">Casual Shirt - Green</a><br> $9.99 
+                </li>
+                <li class="product" data-category="clothing" data-brand="not nike" data-size="M" data-price="6.99" data-condition="new">
+                  <img src="/img/shirt2.jpeg" alt=""><br><a href="product.html">Tee shirt - Blue</a><br> $6.99
+                </li>
+                <li class="product" data-category="clothing" data-brand="not nike" data-size="M" data-price="15.99" data-condition="new">
+                  <img src="/img/pants1.jpeg" alt=""><br><a href="product.html">Khaki Pants</a> <br> $15.99
+                </li>
+                <li class="product" data-category="clothing" data-brand="not nike" data-size="M" data-price="4.99" data-condition="new">
+                  <img src="/img/socks.jpg" alt=""><br><a href="product.html">Full Socks - Yellow</a><br> $4.99
+                </li>
             </ul>
             <ul>
-                <li><img src="/img/pants2.jpeg" alt="">Cotton Pants - Navy <br> $17.99</li>
-                <li><img src="/img/watch1.jpeg" alt="">Smart Watch Pro - Blue & Grey <br> $49.99</li>
-                <li><img src="/img/shoes1.jpg" alt="">Hoka Shoes <br> $89.99</li>
-                <li><img src="/img/shoes2.jpg" alt="">Sky Shoes - Sky Blue <br> $99.99</li>
+                <li class="product" data-category="clothing" data-brand="not nike" data-size="M" data-price="17.99" data-condition="new">
+                  <img src="/img/pants2.jpeg" alt=""><br><a href="product.html">Cotton Pants - Navy</a><br> $17.99
+                </li>
+                <li class="product" data-category="clothing" data-brand="not nike" data-size="M" data-price="49.99" data-condition="new">
+                  <img src="/img/watch1.jpeg" alt=""><br><a href="product.html">Smart Watch</a><br> $49.99
+                </li>
+                <li class="product" data-category="clothing" data-brand="not nike" data-size="M" data-price="89.99" data-condition="new">
+                  <img src="/img/shoes1.jpg" alt=""><br><a href="product.html">Hoka Shoes</a><br> $89.99
+                </li>
+                <li class="product" data-category="clothing" data-brand="not nike" data-size="M" data-price="99.99" data-condition="new">
+                  <img src="/img/shoes2.jpg" alt=""><br><a href="product.html">Sky Shoes</a><br> $99.99
+                </li>
             </ul>
         </section>
     </main>

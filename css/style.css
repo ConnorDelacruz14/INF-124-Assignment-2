@@ -43,3 +43,8 @@ p {
 .category-button:hover {
   background-color: #b91212;
 }
+
+
+a {
+  text-decoration: none;
+}

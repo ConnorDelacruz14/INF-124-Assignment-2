@@ -48,7 +48,7 @@
   width: 100%;
 }
 
-.search-bar button {
+.search-bar a {
   color: #fff;
   background-color: #DA2121;
   cursor: pointer;
@@ -57,7 +57,7 @@
   font-size: 16px;
 }
 
-.search-bar button:hover {
+.search-bar a:hover {
   background-color: #E35353;
 }
 
